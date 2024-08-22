@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ye Pirate Form</title>
+</head>
+<body>
+    <h1>Ye Pirate Form</h1>
+    <form>
+        <input type="text" placeholder="Enter yer message">
+        <button type="submit">Send Message</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>
