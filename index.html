@@ -10,10 +10,15 @@
   <body>
     <h1>Aluratrix</h1>
     <form>
-      <input type="text" placeholder="Enter yer message" />
-      <input type="submit" value="Criptografar" onclick="trocarVogal()" />
-      <button type="submit">Send Message</button>
-      <button type="reset">Clear</button>
+      <input id="text" type="text" placeholder="Sua mensagem" />
+      <input
+        id="submit"
+        type="submit"
+        value="Criptografar"
+        onclick="trocarVogal()"
+      />
+      <button id="descriptografar" type="submit">Descriptografar</button>
+      <button id="limpar" type="reset">Limpar</button>
     </form>
     <div id="container">
       <p id="result"></p>

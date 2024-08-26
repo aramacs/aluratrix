@@ -13,6 +13,33 @@ span {
   padding: 2px;
 }
 
+#text {
+  background-color: black;
+  color: green;
+}
+
+#submit {
+  background-color: green;
+  border: 1px solid green;
+  /* border: grey; */
+  /* color: black; */
+}
+
+#descriptografar {
+  background-color: green;
+  border: grey;
+  color: black;
+}
+
+#limpar {
+  background-color: green;
+  border: grey;
+  color: black;
+}
 #container {
-  border: 1px solid black;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
