@@ -22,6 +22,4 @@ Este projeto consiste em uma interface simples do Google Translate com um estilo
 
 Se desejar contribuir com melhorias para este projeto, sinta-se à vontade para fazer um fork do repositório e enviar um pull request com suas modificações.
 
-Espero que este projeto seja útil e divertido para você. Qualquer dúvida ou sugestão, entre em contato. Aproveite a experiência Matrix! 🏴‍☠️
-
 ---
