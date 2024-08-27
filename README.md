@@ -25,5 +25,3 @@ Se desejar contribuir com melhorias para este projeto, sinta-se à vontade para 
 Espero que este projeto seja útil e divertido para você. Qualquer dúvida ou sugestão, entre em contato. Aproveite a experiência Matrix! 🏴‍☠️
 
 ---
-
-Sinta-se à vontade para ajustar o README conforme necessário. Se precisar de mais alguma coisa, estarei aqui para ajudar. Arrr!
