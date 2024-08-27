@@ -36,11 +36,50 @@ span {
   border: grey;
   color: black;
 }
-#container {
-  border: 1px solid green;
-  border-radius: 10px;
+
+.container_encript {
+  display: flex;
+  justify-content: space-between;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 50px auto;
 }
+
+.box {
+  flex: 1;
+  height: 150px;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 1px solid green;
+}
+input[type="text"] {
+  background-color: black;
+  border: 1px solid green;
+}
+
+button[type="reset"] {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 1px solid green;
+}
+button[type="submit"] {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 1px solid green;
+}
+/**/
+/* .form-container { */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   align-items: center; */
+/*   margin: 10px; */
+/* } */
