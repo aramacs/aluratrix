@@ -1,28 +1,20 @@
 <!doctype html>
-<html lang="pt">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Aluratrix</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Google Translate</title>
   </head>
   <body>
-    <h1>Aluratrix</h1>
-    <form>
-      <input id="text" type="text" placeholder="Sua mensagem" />
-      <input
-        id="submit"
-        type="submit"
-        value="Criptografar"
-        onclick="trocarVogal()"
-      />
-      <button id="descriptografar" type="submit">Descriptografar</button>
-      <button id="limpar" type="reset">Limpar</button>
-    </form>
-    <div id="container">
-      <p id="result"></p>
+    <div class="translate-container">
+      <h1>Google Translate</h1>
+      <textarea id="input" placeholder="Enter text to translate"></textarea>
+      <button id="translate-btn">Translate</button>
+      <button id="undo-btn">Undo Translation</button>
+      <div id="output"></div>
     </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
