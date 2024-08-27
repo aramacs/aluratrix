@@ -84,8 +84,9 @@
 /* /*   align-items: center; */ 
 /* /*   margin: 10px; */ 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #000;
+  color: #00ff00;
   text-align: center;
 }
 
@@ -93,14 +94,14 @@ body {
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #000;
+  border: 1px solid #00ff00;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   margin-bottom: 20px;
-  color: #333;
+  color: #00ff00;
 }
 
 textarea {
@@ -108,27 +109,30 @@ textarea {
   height: 100px;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #00ff00;
   border-radius: 5px;
+  background-color: #000;
+  color: #00ff00;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #00ff00;
+  color: #000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #007700;
 }
 
 #output {
   margin-top: 20px;
   padding: 10px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
+  background-color: #000;
+  border: 1px solid #00ff00;
   border-radius: 5px;
+  color: #00ff00;
 }
